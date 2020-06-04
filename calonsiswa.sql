@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `datasiswa` (
-  `idsiswa` int(100) NOT NULL,
+  
   `nama` varchar(100) NOT NULL,
   `alamat` varchar(100) NOT NULL,
   `jk` enum('P','L') NOT NULL,
